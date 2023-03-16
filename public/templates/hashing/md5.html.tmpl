@@ -1,0 +1,19 @@
+{{define "title"}}
+MD5
+{{end}}
+
+{{define "body"}}
+<div class="content-block">
+	<h1>MD5</h1>
+	<div>
+	  <label for="textarea">Textarea:</label>
+	  <textarea id="textarea" name="textarea"></textarea>
+	  <button id="hash-button">Hash</button>
+	</div>
+	<div>
+	  <label for="output">Display Box:</label>
+	  <textarea id="output" name="output" readonly></textarea>
+	</div>
+	<script src="/public/templates/hashing/md5.js"></script>
+</div>
+{{end}}
